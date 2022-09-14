@@ -1,7 +1,7 @@
 # Coyote exploration
 
 It allows you to write concurrency unit testing. Coyote will generate a rewritten Dll from the code you want to debug 
-potential concurrency issues. Binary rewriting allows coyote to injects hooks and stubs in your production code that allows
+potential concurrency issues. Binary rewriting allows coyote to inject hooks and stubs in your production code. That allows
 coyote to take control over the schedule of C# tasks while the test executes.
 
 ## Steps to run a test using coyote CLI:
